@@ -10,3 +10,81 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+
+*{
+  margin:0px;
+  box-sizing: border-box;
+  padding:0px;
+  font-family: ‘Open Sans’, sans-serif;
+}
+
+header{
+  width:100vw;
+  height: 30px;
+  border: 1px black solid;
+  margin-bottom: 10px;
+}
+
+header h1{
+  color:#2B4E80;
+  text-align: center;
+}
+
+main{
+  width: 100%;
+  height: 400px;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+#left-side{
+  width:49%;
+  height:100%;
+  border: 1px solid blue;
+  display:flex;
+  flex-direction: column;
+  background-color: #E6ECF4;
+}
+
+#left-side p{
+  text-align: center;
+}
+
+#user-question{
+  text-align: center;
+  height:8%;
+  margin:5px 10px 5px 10px;
+}
+
+.submit-answer{
+  background-color:#2B4E80;
+  color:white;
+  height:8%;
+  margin:0px 10px 0px 10px;
+}
+
+#eight-ball{
+  width:30%;
+  margin:auto;
+}
+
+#clear{
+  width:20%;
+  margin:0% 0% 5% 70%;
+  height:7%;
+  background-color: #D0CDCD;
+  color:white;
+}
+
+#right-side{
+  width:49%;
+  height:100%;
+  border: 1px solid yellow;
+  justify-content: center;
+}
+
+#woody{
+  width:39%;
+}
