@@ -18,6 +18,10 @@ clearButton.disabled = true;
 function ableBtns() {
   submitButton.disabled = false;
   clearButton.disabled = false;
+  if(userQuestion.value.length == 0){
+    submitButton.disabled = true;
+    clearButton.disabled = true;
+  }
 }
 
 // function to show/display user answer and question
