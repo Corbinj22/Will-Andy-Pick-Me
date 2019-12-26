@@ -72,6 +72,10 @@ main{
   color: white;
 }
 
+.submit-answer:disabled{
+background-color: black;
+}
+
 .answer{
   display:none;
 }
@@ -87,6 +91,10 @@ main{
   height:7%;
   background-color: #D0CDCD;
   color:white;
+}
+
+#clear:disabled{
+  background-color: black;
 }
 
 #right-side{
