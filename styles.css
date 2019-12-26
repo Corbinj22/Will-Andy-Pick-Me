@@ -67,6 +67,15 @@ main{
   font-size: 17px;
 }
 
+.submit-answer:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.answer{
+  display:none;
+}
+
 #eight-ball{
   width: 45%;
   margin:auto;
